@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+"""main.py - Ejecuta el flujo del laboratorio Sesión 18."""
+from variables import declarar_variables
+from operaciones import operaciones_matematicas
+from cadenas import manipular_cadenas
+from listas import trabajar_listas
+from diccionarios import diccionario_ejemplo
+
+def main():
+    print("\n=== Laboratorio: Sintaxis Básica y Tipos de Datos en Python ===\n")
+    declarar_variables()
+    operaciones_matematicas()
+    manipular_cadenas()
+    trabajar_listas()
+    diccionario_ejemplo()
+
+if _name_ == '_main_':
+    main()
+    

@@ -1,0 +1,14 @@
+# diccionarios.py
+
+def diccionario_ejemplo():
+    print('\n-- Diccionarios --')
+    dicci = {'nombre': 'Ana', 'edad': 30, 'ciudad': 'Barranquilla', 'profesion': 'Estudiante'}
+    print('Diccionario inicial:', dicci)
+
+    # Modificar valor
+    dicci['edad'] = 32
+    # Agregar nuevo par clave-valor
+    dicci['email'] = 'ana@example.com'
+
+    print('Diccionario modificado:', dicci)
+    return dicci

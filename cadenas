@@ -1,0 +1,21 @@
+# operaciones.py
+
+def operaciones_matematicas():
+    print('\n-- Operaciones Matemáticas --')
+    a = int(input("Ingrese el primer número entero: "))
+    b = int(input("Ingrese el segundo número entero: "))
+
+    suma = a + b
+    resta = a - b
+    multiplicacion = a * b
+    division = None
+    if b != 0:
+        division = a / b
+
+    print(f"Suma: {suma}")
+    print(f"Resta: {resta}")
+    print(f"Multiplicación: {multiplicacion}")
+    if division is not None:
+        print(f"División: {division}")
+    else:
+        print("División: no se puede dividir entre 0")
